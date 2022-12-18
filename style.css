@@ -1,0 +1,43 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    height: 50px;
+    /* width: 800px;   */
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.74);
+    margin: 0 auto;
+    justify-content: space-between;
+}
+h1 {
+    color: white;
+    font-family: Roboto;
+    font-size: 20pt;
+
+}
+.nav-links {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+li a { 
+    color: white;
+    text-decoration: none;
+    font-family: Roboto;
+}
+li {
+    list-style: none;
+}
+.btn {
+    height: 35px;
+    width: 100px;
+    font-size: 14pt;
+    background-color: lightskyblue;
+    font-family: Roboto;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px 2px black;
+    color: white;
+}
